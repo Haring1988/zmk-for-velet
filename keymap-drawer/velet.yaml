@@ -246,7 +246,7 @@ layers:
   - $$mdi:pan-right$$
   - {t: Ctl+ A, h: Alt+Ctl+ A}
   - Ctl+ S
-  - Gui+ D
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - Ctl+ F
   - Gui+ L
   - {t: '$$mdi:transfer$$', type: trans}
