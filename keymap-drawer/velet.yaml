@@ -1,5 +1,5 @@
 layers:
-  BASE:
+  Base:
   - Q
   - W
   - E
@@ -14,13 +14,13 @@ layers:
   - S
   - D
   - F
-  - {t: G, h: ARROWS}
-  - {t: H, h: ARROWS}
+  - {t: G, h: Arrow}
+  - {t: H, h: Arrow}
   - J
   - K
   - L
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Z, h: LEFTPAD}
+  - {t: Z, h: L pad}
   - X
   - C
   - V
@@ -30,15 +30,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '$$mdi:keyboard-tab$$', h: CONTROLS}
+  - {t: '$$mdi:keyboard-tab$$', h: Ctrls}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: LEFT WIN, h: NUMBER}
+  - {t: LEFT WIN, h: Number}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', h: ICON}
+  - {t: '$$mdi:backspace$$', h: Icon}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: BLUETOOTH}
-  NUMBER:
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Ble}
+  Number:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -77,7 +77,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  ICON:
+  Icon:
   - {t: Sft+ 1, s: Sft+ !}
   - {t: Sft+ 2, s: Sft+ @}
   - {t: Sft+ 3, s: 'Sft+ #'}
@@ -116,7 +116,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LEFTPAD:
+  L pad:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '7', s: '&'}
@@ -155,7 +155,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  BLUETOOTH:
+  Ble:
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  ARROWS:
+  Arrow:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
@@ -233,7 +233,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  CONTROLS:
+  Ctrls:
   - Ctl+ J
   - Ctl+Alt+ W
   - Ctl+ $$mdi:apple-keyboard-shift$$

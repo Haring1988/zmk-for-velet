@@ -314,8 +314,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-BASE">
-<text x="0" y="28" class="label" id="BASE">BASE:</text>
+<g transform="translate(40, 0)" class="layer-Base">
+<text x="0" y="28" class="label" id="Base">Base:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 48)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -391,15 +391,15 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">G</text>
-<a href="#ARROWS">
-<text x="0" y="24" class="key hold layer-activator">ARROWS</text>
+<a href="#Arrow">
+<text x="0" y="24" class="key hold layer-activator">Arrow</text>
 </a></g>
 <g transform="translate(532, 104)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">H</text>
-<a href="#ARROWS">
-<text x="0" y="24" class="key hold layer-activator">ARROWS</text>
+<a href="#Arrow">
+<text x="0" y="24" class="key hold layer-activator">Arrow</text>
 </a></g>
 <g transform="translate(588, 90)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -425,8 +425,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Z</text>
-<a href="#LEFTPAD">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">LEFTPAD</tspan></text>
+<a href="#L-pad">
+<text x="0" y="24" class="key hold layer-activator">L pad</text>
 </a></g>
 <g transform="translate(84, 146)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -483,8 +483,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
-<a href="#CONTROLS">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 75%">CONTROLS</tspan></text>
+<a href="#Ctrls">
+<text x="0" y="24" class="key hold layer-activator">Ctrls</text>
 </a></g>
 <g transform="translate(195, 227) rotate(14.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -504,8 +504,8 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">LEFT</tspan><tspan x="0" dy="1.2em">WIN</tspan>
 </text>
-<a href="#NUMBER">
-<text x="0" y="38" class="key hold layer-activator">NUMBER</text>
+<a href="#Number">
+<text x="0" y="38" class="key hold layer-activator">Number</text>
 </a></g>
 <g transform="translate(474, 222) rotate(-14.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key side"/>
@@ -516,8 +516,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace"/>
-<a href="#ICON">
-<text x="0" y="24" class="key hold layer-activator">ICON</text>
+<a href="#Icon">
+<text x="0" y="24" class="key hold layer-activator">Icon</text>
 </a></g>
 <g transform="translate(589, 222) rotate(-14.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -528,8 +528,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
-<a href="#BLUETOOTH">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">BLUETOOTH</tspan></text>
+<a href="#Ble">
+<text x="0" y="24" class="key hold layer-activator">Ble</text>
 </a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="42" y="28" width="28" height="26" class="combo"/>
@@ -575,8 +575,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 325)" class="layer-NUMBER">
-<text x="0" y="28" class="label" id="NUMBER">NUMBER:</text>
+<g transform="translate(40, 325)" class="layer-Number">
+<text x="0" y="28" class="label" id="Number">Number:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 48)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -828,8 +828,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 651)" class="layer-ICON">
-<text x="0" y="28" class="label" id="ICON">ICON:</text>
+<g transform="translate(40, 651)" class="layer-Icon">
+<text x="0" y="28" class="label" id="Icon">Icon:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 48)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1128,8 +1128,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 976)" class="layer-LEFTPAD">
-<text x="0" y="28" class="label" id="LEFTPAD">LEFTPAD:</text>
+<g transform="translate(40, 976)" class="layer-L pad">
+<text x="0" y="28" class="label" id="L-pad">L pad:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 48)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1389,8 +1389,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1301)" class="layer-BLUETOOTH">
-<text x="0" y="28" class="label" id="BLUETOOTH">BLUETOOTH:</text>
+<g transform="translate(40, 1301)" class="layer-Ble">
+<text x="0" y="28" class="label" id="Ble">Ble:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 48)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1401,8 +1401,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
-<tspan x="0" dy="1.2em">ALL</tspan>
+<tspan x="0" dy="-1.2em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan><tspan x="0" dy="1.2em">ALL</tspan>
 </text>
 </g>
 <g transform="translate(140, 28)" class="key keypos-2">
@@ -1656,8 +1655,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1627)" class="layer-ARROWS">
-<text x="0" y="28" class="label" id="ARROWS">ARROWS:</text>
+<g transform="translate(40, 1627)" class="layer-Arrow">
+<text x="0" y="28" class="label" id="Arrow">Arrow:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 48)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1891,8 +1890,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1952)" class="layer-CONTROLS">
-<text x="0" y="28" class="label" id="CONTROLS">CONTROLS:</text>
+<g transform="translate(40, 1952)" class="layer-Ctrls">
+<text x="0" y="28" class="label" id="Ctrls">Ctrls:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 48)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
