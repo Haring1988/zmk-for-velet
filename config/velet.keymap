@@ -116,7 +116,7 @@
         new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp RS(NUMBER_8) &kp RS(NUMBER_9) &kp RET>;
+            bindings = <&kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp RS(N7) &kp RS(N8) &kp LS(N9) &kp ENTER>;
             label = "NEW_MACRO";
         };
     };
