@@ -5,11 +5,12 @@
  */
 
 #include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &mt {
     tapping-term-ms = <200>;
@@ -119,6 +120,13 @@
             bindings = <&kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp RS(N7) &kp RS(N8) &kp LS(N9) &kp ENTER>;
             label = "NEW_MACRO";
         };
+
+        new_macro_update: new_macro_update {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp CARET &kp AMPERSAND &kp ASTERISK>;
+            label = "NEW_MACRO_UPDATE";
+        };
     };
 
     keymap {
@@ -137,10 +145,10 @@
 
         NUMBER {
             bindings = <
-&kp N1     &kp N2      &kp N3      &kp N4          &kp N5           &kp N6     &kp N7        &kp N8      &kp N9          &kp N0
-&kp MINUS  &kp EQUAL   &kp F2      &kp F5          &none            &kp BSLH   &kp LBKT      &kp RBKT    &kp SEMI        &kp APOS
-&kp GRAVE  &kp C_MUTE  &new_macro  &kp C_VOL_DN    &kp C_VOLUME_UP  &trans     &kp UP_ARROW  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT_ARROW
-           &trans      &trans      &kp LEFT_SHIFT  &trans           &kp SPACE  &kp BSPC      &kp DELETE  &trans
+&kp N1     &kp N2      &kp N3             &kp N4          &kp N5           &kp N6     &kp N7        &kp N8      &kp N9          &kp N0
+&kp MINUS  &kp EQUAL   &kp F2             &kp F5          &none            &kp BSLH   &kp LBKT      &kp RBKT    &kp SEMI        &kp APOS
+&kp GRAVE  &kp C_MUTE  &new_macro         &kp C_VOL_DN    &kp C_VOLUME_UP  &trans     &kp UP_ARROW  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT_ARROW
+           &trans      &new_macro_update  &kp LEFT_SHIFT  &trans           &kp SPACE  &kp BSPC      &kp DELETE  &trans
             >;
 
             label = "Number";
