@@ -12,8 +12,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-
-
 &mt {
     tapping-term-ms = <200>;
     flavor = "tap-preferred";
@@ -80,7 +78,7 @@
 
         alt-tab {
             bindings = <&kp LA(TAB)>;
-            key-positions = <2 1>;
+            key-positions = <11 12>;
         };
     };
 
