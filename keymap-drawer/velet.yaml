@@ -333,5 +333,5 @@ combos:
   k: PG UP
 - p: [16, 17]
   k: PgDn
-- p: [11, 12]
+- p: [13, 33]
   k: Alt+$$mdi:keyboard-tab$$
