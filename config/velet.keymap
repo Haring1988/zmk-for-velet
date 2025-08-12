@@ -129,7 +129,7 @@
         new_macro_update: new_macro_update {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp CARET &kp AMPERSAND &kp ASTERISK &kp ENTER>;
+            bindings = <&kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp CARET &kp AMPERSAND &kp ASTERISK &kp LPAR &kp ENTER>;
             label = "NEW_MACRO_UPDATE";
         };
     };
